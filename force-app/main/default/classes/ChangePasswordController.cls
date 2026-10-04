@@ -13,6 +13,7 @@ public with sharing class ChangePasswordController {
     public String test4 {get; set;}
     public String test5 {get; set;}
     public String test6 {get; set;}
+    public String test7 {get; set;}
 
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
